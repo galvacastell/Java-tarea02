@@ -10,5 +10,6 @@ spring:
     config:
       server:
         git:
-          uri:
-
+          uri: https://github.com/galvacastell/Java-tarea02.git
+          default-label: main
+          clone-on-start: true
