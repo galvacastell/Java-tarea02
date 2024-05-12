@@ -11,3 +11,9 @@
    b) MsCuenta, microservicio de cuenta para realizar CRUD de cuentas del cliente, se conecta a PostgreSQL
    c) config-Server, se conecta a github para centralizar los parametros de BD
    d) auth-server, para ejecutar oauth2 y JWT en BD h2 de java
+   e) gateway, para enrutar los servicios, solo se modifico puerto.
+4) Instrucciones, dirigirse a la carpeta SQL y ejecutar los archivos (segùn extensiòn) en el orden de la imagen:
+   ![ejecutar](https://github.com/galvacastell/Java-tarea02/assets/166955374/ef59a5f9-b708-4f88-8b2f-7269d52c1aeb)
+
+   A continuaciòn crear las imagenes de los servicios y carga los app en docker.
+5) 
