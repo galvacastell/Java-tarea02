@@ -1,0 +1,31 @@
+version: '1.0'
+
+services:
+
+    db:
+      image: postgres:16.1
+      container_name: db-Usurio-galva
+      restart: always
+      volumes:
+        - ./sql/create_schema.sql:/docker-entrypoint-initdb.d/create_schema.sql
+        - ./sql/data.sql:/docker-entrypoint-initdb.d/data.sql
+      environment:
+        POSTGRES_DB: 'db_Usuario_galva'
+        POSTGRES_USER: 'galva'
+        POSTGRES_PASSWORD: '123456'
+      ports:
+        - '5235:5432'
+
+    db2:
+      image: postgres:16.1
+      container_name: db-cuenta-galva
+      restart: always
+      volumes:
+        - ./sql/create_schema.sql:/docker-entrypoint-initdb.d/create_schema.sql
+        - ./sql/data.sql:/docker-entrypoint-initdb.d/data.sql
+      environment:
+        POSTGRES_DB: 'db_Cuenta_galva'
+        POSTGRES_USER: 'galva'
+        POSTGRES_PASSWORD: '123456'
+      ports:
+        - '5432:5432'
