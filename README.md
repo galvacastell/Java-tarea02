@@ -16,4 +16,12 @@
    ![ejecutar](https://github.com/galvacastell/Java-tarea02/assets/166955374/ef59a5f9-b708-4f88-8b2f-7269d52c1aeb)
 
    A continuaciòn crear las imagenes de los servicios y carga los app en docker.
-5) 
+5) Ejemplos de uso:
+   Lista usuario:
+   ![usuario1](https://github.com/galvacastell/Java-tarea02/assets/166955374/d077c09c-64d8-4a92-b416-73de1abde9f7)
+   Registra Usuario:
+   ![usuario2](https://github.com/galvacastell/Java-tarea02/assets/166955374/12fd44f6-c5fd-4d4f-92f0-a38fc2150946)
+   Lista Cuenta:
+   ![cuenta1](https://github.com/galvacastell/Java-tarea02/assets/166955374/061e5e0b-8ee1-41c2-a8af-90b00260ab9c)
+
+   
